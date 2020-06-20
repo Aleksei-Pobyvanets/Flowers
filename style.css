@@ -620,11 +620,164 @@ table {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 .cart__text {
-    
+    max-width: ‭1318px‬;
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 0 75px 0;
+    align-items: center;
 }
 .mainTxt {
-    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    color: #FFFFFF;
 }
 .titleTxt {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.68);
+    width: 590px;
+}
+.wrapper{
+    padding: 0 10% 0 10%;
+}
+.imageUa{
+    max-width: 1436px;
+    height: 871px;
+    margin: auto;
+    background: url(images/ua.png) no-repeat center;
     
+}
+.box__ua{
+    width: 309px;
+    height: 177px;
+    background: #485284;
+    box-shadow: 0px 1px 4px #485284;
+    position: relative;
+    right: -79%;
+}
+.xarkov {
+    padding: 29px 36px 29px 36px;
+}
+.xarkov__txt {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.79);
+    border-bottom: 1px solid #ffffff;
+    font-weight: normal;
+    padding-bottom: 8px;
+}
+.first__card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 25px 0;
+}
+.first__card-txt {
+    
+    width: 221px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.77);
+}
+.sekond__card {
+    display: flex;
+    justify-content: space-between;
+}
+.sekond__card-txt {
+    width: 221px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.77);
+}
+.box-sersh {
+    padding: 31px 0 140px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 519px;
+    align-items: center;
+}
+.brder_bottom{
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #ffffff;
+}
+.inpt{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    width: 320px;
+    height: 28px;
+}
+.btn__poisk {
+    width: 130px;
+    height: 40px;
+    background: none;
+    border-radius: 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.inpt:focus {
+    border: none;
+}
+.zakaz-btn:focus {
+    border: none;
+}
+.last__box {
+    background: #ffffff;
+    padding:  140px 10% 0 10%;
+}
+.right__colum {
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+}
+.mainTxT {
+    width: 389px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    color: #485284;
+}
+.txt1 {
+    width: 280px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #485284;
+}
+.txt2 {
+    width: 349px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #485284;
+}
+.inpt3 {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    width: 320px;
+    height: 28px;
+}
+.btn__call {
+}
+.f22{
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #ffffff;
 }
