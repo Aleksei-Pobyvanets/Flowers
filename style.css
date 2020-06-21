@@ -737,11 +737,15 @@ table {
 .last__box {
     background: #ffffff;
     padding:  140px 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+
 }
 .right__colum {
     max-width: 390px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 140px;
 }
 .mainTxT {
     width: 389px;
@@ -750,6 +754,7 @@ table {
     font-weight: normal;
     font-size: 46px;
     color: #485284;
+    padding: 0 0 55px 0;
 }
 .txt1 {
     width: 280px;
@@ -758,6 +763,7 @@ table {
     font-weight: normal;
     font-size: 16px;
     color: #485284;
+    padding: 0 0 20px 0;
 }
 .txt2 {
     width: 349px;
@@ -766,6 +772,7 @@ table {
     font-weight: normal;
     font-size: 16px;
     color: #485284;
+    padding: 35px 0 0px 0;
 }
 .inpt3 {
     background: none;
@@ -778,6 +785,89 @@ table {
 .btn__call {
 }
 .f22{
-    padding: 0 0 10px 0;
+    padding: 35px 0 10px 0;
     border-bottom: 1px solid #ffffff;
+}
+.last__box-second {
+    display: flex;
+    width: 954px;
+    margin-top: 80px;
+    height: 100%;
+    background: #DCDEEE;
+}
+.last__box-second__text-vertical {
+    width: 278px;
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0 45px 25px;
+}
+.email {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    width: 200px;
+}
+.text-email {
+    width: 171px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #485284;
+
+}
+.telephone1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    width: 138px;
+}
+.text-telephon {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #485284;
+}
+.geolocation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 230px;
+}
+.text-geolocation {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #485284;
+
+}
+.last__box-text {
+    width: 251px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(72, 82, 132, 0.74);
+    margin-bottom: 25px;
+}
+.last__box-text1 {
+    width: 278px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(72, 82, 132, 0.74);
+}
+.image-flower {
+    width: 225px;
+    background: url(images/flower.png) no-repeat center;
+    padding: 0 22px 0 0;
+}
+.image-screen {
+    display: flex;
+    background: url(images/flower1.png)no-repeat center;
+    width: 404px;
+    justify-content: space-between;
 }
