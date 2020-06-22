@@ -871,3 +871,96 @@ table {
     width: 404px;
     justify-content: space-between;
 }
+.wrap{
+    padding: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.first-box {
+    margin-top: 90px;
+}
+.oplata {
+    margin-bottom: 20px;
+    width: 198px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.77);
+}
+.polotoca {
+    margin-bottom: 33px;
+    width: 251px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: rgba(255, 255, 255, 0.77);
+}
+.second-box {
+    margin-top: 78px;
+}
+.icons-box{
+    margin-bottom: 22px;
+    display: flex;
+    width: 152px;
+    justify-content: space-between;
+}
+.flwrs {
+    margin-bottom: 33px;
+    width: 157px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.77);
+}
+.pokupki {
+    margin-bottom: 33px;
+    width: 157px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.77);
+}
+.zakaz {
+    margin-bottom: 33px;
+    width: 157px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.77);
+}
+.third-box {
+    margin-top: 90px;
+}
+.druchit {
+    margin-bottom: 33px;
+    width: 154px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.76);
+}
+.telephon__btn-div1 {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.8);;
+    padding: 7px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.telephon__btn1{
+    border: none;
+    background: none;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
