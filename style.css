@@ -188,6 +188,8 @@ table {
 }
 .something {
     display: flex;
+    margin: auto;
+    width: 1436px;
     justify-content: space-between;
     padding: 140px 10% 0 10%;
 }
@@ -231,7 +233,7 @@ table {
 }
 .main__block {
     display: flex;
-    width: 1532px;
+    width: 1436px;
     height: 516px;
     padding: 81px 0 141px 0;
 }
@@ -262,6 +264,13 @@ table {
     background: #485284;
     box-shadow: 0px 0px 4px #485284;
 }
+.bloks{
+    display: flex;
+    flex-direction: column;
+}
+.bbb{
+    padding: 47px 0 72px 47px;
+}
 .txt11{
     width: 268px;
     height: 20px;
@@ -269,6 +278,95 @@ table {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.91);
     opacity: 0.84;
+    margin-bottom: 35px;
+}
+.txt-block3{
+    text-align: center;
+    width: 212px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.84;
+    margin: auto;
+    padding: 16% 0 0 0;
+}
+.block5-image {
+    display: flex;
+    padding: 50px 0px 50px 35px;
+}
+.img-border {
+    width: 72px;
+    height: 72px;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    box-sizing: border-box;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.image-block5 {
+    background: url(images/imgFace.png);
+}
+.irina {
+    width: 120px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.84;
+    margin-bottom: 15px;
+}
+.irina-txt {
+    width: 122px;
+    height: 34px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.74);
+    opacity: 0.84;
+}
+.block5-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 21px;
+}
+.box5-txt1{
+    width: 276px;
+    height: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.93);
+    opacity: 0.84;
+    margin-bottom: 30px;
+}
+.box5-txt2{
+    width: 262px;
+    height: 40px;
+    font-family:'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.93);
+    opacity: 0.84;
+    margin-bottom: 24px;
+}
+.box5-txt3{
+    width: 242px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.93);
+    opacity: 0.84;
+}
+.txt-5{
+    padding: 0px 0px 50px 35px;
 }
 .text-main{
     width: 326px;
@@ -283,6 +381,7 @@ table {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.91);
     opacity: 0.84;
+    margin-bottom: 92px;
 }
 .text-main3{
     width: 236px;
@@ -294,9 +393,7 @@ table {
 /*
 
 */
-.UUl{
 
-}
 .Lli{
     width: 169px;
     font-family: 'Open Sans';
@@ -474,7 +571,6 @@ table {
     height: 40px;
     padding: 37px 40px 0 37px;
     position: relative;
-    top: -60px;
 }
 .box_f2 {
     width: 312px;
@@ -509,7 +605,6 @@ table {
     font-family: 'Open Sans';
     font-size: 18px;
     color: #485284;
-    top: -29px;
     position: relative;
     padding: 0px 0px 0px 220px;
 }
@@ -555,7 +650,6 @@ table {
 
 .slider__control {
     position: absolute;
-    top: 14.3%;
     display: none;
     align-items: center;
     justify-content: center;
@@ -676,8 +770,7 @@ table {
     justify-content: space-between;
     padding: 20px 0 25px 0;
 }
-.first__card-txt {
-    
+.first__card-txt {  
     width: 221px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -781,8 +874,6 @@ table {
     font-size: 16px;
     width: 320px;
     height: 28px;
-}
-.btn__call {
 }
 .f22{
     padding: 35px 0 10px 0;
