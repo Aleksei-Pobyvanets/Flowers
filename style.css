@@ -567,10 +567,9 @@ table {
     top: -40px;
 }
 .zbtn1{
-    width: 136px;
     height: 40px;
     padding: 37px 40px 0 37px;
-    position: relative;
+    display: flex;
 }
 .box_f2 {
     width: 312px;
@@ -601,12 +600,11 @@ table {
 }
 .fl_price1{
     width: 57px;
-    height: 25px;
     font-family: 'Open Sans';
     font-size: 18px;
     color: #485284;
-    position: relative;
-    padding: 0px 0px 0px 220px;
+    margin-top: 12px;
+    margin-left: 110px;
 }
 .txt-f2{
     width: 194px;
@@ -627,7 +625,6 @@ table {
 .sss{
     display: flex;
     width: 990px;
-    padding: 190px 0 0 0;
     justify-content: space-between;
 }
 
@@ -657,7 +654,7 @@ table {
     color: #000000;
     text-align: center;
     opacity: 0.5;
-    height: 50px;
+    height: 25px;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, .5);
 }
@@ -682,22 +679,6 @@ table {
     right: 0;
 }
 
-.slider__control::before {
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: transparent no-repeat center center;
-    background-size: 100% 100%;
-}
-
-.slider__control_left::before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.slider__control_right::before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
 
 .slider__item>div {
     font-size: 100px;
